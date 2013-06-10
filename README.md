@@ -5,7 +5,7 @@ Lyrics helps me make LRC file. It's based on node-webkit, jQuery and bootstrap.
 
 ### How to use Lyrics
 
-Lyrics is __not packaged__ yet. You can use lyrics with following steps.
+Lyrics is __not packaged__ yet. You can use lyrics following steps below.
 
 * install node-webkit following this [link](https://github.com/rogerwang/node-webkit/wiki/How-to-run-apps#mac-os-x)
 * Check out source files
