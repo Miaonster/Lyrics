@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LET'S GENERATE A LYRICS NOW.</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="music-info">
+    <span>
+      <span id="music-info-title" class="music-info-title">Music Title</span>
+      <span id="music-info-artist"class="music-info-artist">Music Artist</span>
+    </span>
+    <span id="music-info-path" class="music-info-path">/this/is/the/path/to/the/music/file.mp3</span>
+  </div>
+  <div class="play-button">
+    <input class="open-input" id="open-input" type="file" />
+    <a class="button open" id="open">Open File</a>
+    <a class="button start" id="start">Play</a>
+    <a class="button stop disable" id="stop">Stop</a>
+    <a class="button insert disable" id="insert">Timestamp</a>
+    <a class="button pause disable" id="pause">Pause</a>
+    <a class="button resume disable" id="resume">Resume</a>
+  </div>
+  <div class="lyrics-info">
+    <!--
+    <div class="lyrics-info-other">
+      <span>ar</span>
+      <input id="ar" type="" />
+      <span>al</span>
+      <input id="al" type="" />
+      <span>ti</span>
+      <input id="ti" type="" />
+      <span>au</span>
+      <input id="au" type="" />
+      <span>length</span>
+      <input id="length" type="" />
+      <span>by</span>
+      <input id="by" type="" />
+      <span>offset</span>
+      <input id="offset" type="" />
+      <span>re</span>
+      <input id="re" type="" />
+      <span>ve</span>
+      <input id="ve" type="" />
+    </div>
+    -->
+    <div class="lyrics" name="lyrics" rows="10" cols="30">
+      <textarea id="lyrics"></textarea>
+    </div>
+  </div>
+  <script src="js/jquery-2.0.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

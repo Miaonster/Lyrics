@@ -1,0 +1,27 @@
+{
+  "name": "play",
+  "description": "play sound files from node.js to your speakers, simple as cake and kid approved!",
+  "version": "0.5.0",
+  "author": {
+    "name": "Marak Squires"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Marak/play.js.git"
+  },
+  "dependencies": {
+    "colors": ">= 0.3.0"
+  },
+  "engine": [
+    "node >=0.1.90"
+  ],
+  "main": "lib/play",
+  "readme": "## play.js - play sound files from node.js to your speakers, simple as cake and kid approved!\n<img src = \"https://github.com/Marak/play.js/raw/master/logo.png\" border = \"0\"/>\n<img src = \"https://github.com/Marak/play.js/raw/master/demo.png\" border = \"0\"/>\n\n### Installing npm (node package manager)\n\n     curl http://npmjs.org/install.sh | sh\n\n### Installing play.js\n\n     npm install play\n\n# USAGE\n\n      var play = require('play');\n\n      // play with a callback\n      play.sound('./wavs/sfx/intro.wav', function(){\n  \n        // these are all \"fire and forget\", no callback\n        play.sound('./wavs/sfx/alarm.wav');\n        play.sound('./wavs/sfx/crinkle.wav');\n        play.sound('./wavs/sfx/flush.wav');\n        play.sound('./wavs/sfx/ding.wav');\n        \n      });\n\n## DEMO\n\n     cd examples\n     node demo.js\n\n###drum party, now go to JSONloops => <a href = \"http://github.com/marak/JSONloops\">http://github.com/marak/JSONloops</a>\n\n### Requirements\n\nMac OS and node.js\n\n                        ",
+  "readmeFilename": "ReadMe.md",
+  "_id": "play@0.5.0",
+  "dist": {
+    "shasum": "b85a634a657d4873bdbaee232c0c9b23d0c8520e"
+  },
+  "_from": "play@",
+  "_resolved": "https://registry.npmjs.org/play/-/play-0.5.0.tgz"
+}
