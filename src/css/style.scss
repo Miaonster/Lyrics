@@ -95,11 +95,12 @@ div.lyrics-info {
     margin: 20px 0;
   }
   .lyrics {
-    border: dotted 1px;
+    border: solid 1px #cccccc;
     height: 360px;
     textarea {
       -webkit-box-sizing: border-box;
-      font-size: 13px;
+      font-size: 12px;
+      line-height: 13px;
       box-sizing: border-box;
       padding: 5px;
       resize: none;

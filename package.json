@@ -1,10 +1,14 @@
 {
   "name": "lyrics",
   "main": "src/index.html",
+  "description": "Lyrics helps me make LRC file.",
+  "version": "0.1.0",
+  "keywords": [ "node-webkit", "lyrics" ],
   "window": {
+    "icon": "src/img/lyrics-icon.png",
     "resizable": false,
     "toolbar": false,
-    //"frame": false,
+    "frame": false,
     "width": 900,
     "height": 560
   }
