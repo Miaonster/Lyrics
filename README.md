@@ -7,9 +7,8 @@ Downloads
 ===
 
 * [Mac OS X](https://dl.dropboxusercontent.com/u/41466757/Lyrics.dmg)
-*
 
-How Build Lyrics
+How to build Lyrics
 ===
 
 You can build lyrics following steps below.
