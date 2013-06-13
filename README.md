@@ -22,6 +22,7 @@ If you need a packaged program, you can follow this [tutorial](https://github.co
 Todos
 ===
 
+* more functions about LRC editing
 * play & pause & resume button combine
 * custom close button
 * shortcut key
